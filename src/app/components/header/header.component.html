@@ -1,0 +1,36 @@
+<header class="contenedor">
+
+    <div class="menu">
+
+        <div class="menu-logo">
+
+            <a href="index.html"><img class="logo" src="../../../assets/recursos/Logo2.png" alt="Logo route 99"></a>
+
+        </div>
+        <!--menu-logo-->
+
+        <nav class="diseño-menu" id="diseño-menu">
+
+            <a [routerLink]="['/home']" [routerLinkActive]="['active']">Inicio</a>
+            <a [routerLink]="['/conocenos']" [routerLinkActive]="['active']">Conocenos</a>
+            <a [routerLink]="['/menu']" [routerLinkActive]="['active']">Menu</a>
+            <a [routerLink]="['/promociones']" [routerLinkActive]="['active']">Promociones</a>
+            <a [routerLink]="['/contacto']" [routerLinkActive]="['active']">Contacto</a>
+
+        </nav>
+
+        <input type="checkbox" id="check" checked>
+
+        <label class="icono checkbtn" for="check">
+
+                <i class="fas fa-pizza-slice"></i>
+
+            </label>
+
+    </div>
+    <!--menu-->
+
+    <div class="fondo"></div>
+    <!--fondo-->
+
+</header>
